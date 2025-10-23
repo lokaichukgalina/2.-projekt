@@ -66,7 +66,6 @@ def start_hry():
             prvni_hra = False  # Po první hře už se nebude vypisovat
 
         tajne_cislo = vytvor_tajne_cislo()
-        print(tajne_cislo)  # Můžeš zakomentovat, pokud nechceš vidět tajné číslo
         pocet_pokusu = 0
         start_time = time.time()
 
@@ -116,4 +115,5 @@ def start_hry():
 
 
 if __name__ == "__main__":
+
     start_hry()
